@@ -16,6 +16,22 @@ public class Axxxx {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        try{
+         
+            System.out.println(10/0);   
+            
+            
+        }catch(Exception e ){
+        System.out.println(e);
+        
+        }finally{
+            System.out.println("Erro");
+        
+        }
+        
+        
+        
     }
     
 }
